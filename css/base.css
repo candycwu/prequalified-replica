@@ -21,6 +21,9 @@ a, a:hover, a:focus {
     transition: all 0.3s;
 }
 
+/* ---------------------------------------------------
+    NAVBAR STYLE
+----------------------------------------------------- */
 .navbar {
     border: none;
     border-radius: 0;
@@ -61,6 +64,15 @@ a, a:hover, a:focus {
     transform: translate(-50%, 0);
 }
 
+/* ---------------------------------------------------
+    RIGHT TOP SIDE STYLE
+----------------------------------------------------- */
+.left-half{
+    position: absolute;
+    left: 1%;
+    width: 50%;
+}
+
 .line {
     width: 95%;
     height: 1px;
@@ -68,17 +80,14 @@ a, a:hover, a:focus {
     margin: 40px auto;
 }
 
-.left-half{
-    position: absolute;
-    left: 1%;
-    width: 50%;
-}
-
 #cc {
     max-width: 100%;
     border: 0;
 }
 
+/* ---------------------------------------------------
+    RIGHT TOP SIDE STYLE
+----------------------------------------------------- */
 .right-half{
     position: absolute;
     right: 0px;
@@ -95,7 +104,7 @@ label {
 
 .bottombottom {
     position: absolute;
-    top: 700px;
+    top: 90%;
     bottom: 0;
     width: 100%;
     border-top: 1px solid #CCC;
