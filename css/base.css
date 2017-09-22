@@ -102,8 +102,15 @@ label {
 #inputSS {
     font-size: 1.5em;
     color: #666;
-    text-align: right;
+    text-align: left;
+    padding-right: 0;
+    display: flex;
+    justify-content: space-between;
+}
 
+#inputSS span {
+    font-size: small;
+    padding-top: .5em;
 }
 
 /* ---------------------------------------------------
