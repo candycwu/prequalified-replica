@@ -133,6 +133,21 @@ label {
 }
 
 /* ---------------------------------------------------
+    SECTION AFTER FOLLOW US STYLE
+----------------------------------------------------- */
+.verybottom {
+    position: absolute;
+    top: 95%;
+    width: 100%;
+    background-color: #f7f7f7;
+    padding: 1em 0 1.25em .625em
+}
+
+.verybottom h4 {
+    text-align: center;
+}
+
+/* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
 #sidebar {
